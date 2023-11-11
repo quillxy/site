@@ -16,3 +16,20 @@ p {color: #727272;
 
 li{font-size:15px;
 }
+
+@keyframes color-change {
+    0% {
+      color: black;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color:black;
+    }
+}
+h1 {
+    animation: color-change 3s infinite;
+}
